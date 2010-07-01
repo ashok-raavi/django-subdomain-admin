@@ -1,0 +1,12 @@
+
+add these apps to INSTALLED_APPS
+    'subdomains',
+    'subdomain_admin',
+
+* Every user registerd on the site is member of the group 'SubUser'
+
+models inherited from `subdomain_admin.models.SubModel` are 
+editable by the user belonging to the group 'SubUser'
+
+`from subdomain_admin.admin import SubdomainAdmin`
+ 

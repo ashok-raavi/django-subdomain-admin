@@ -1,0 +1,1 @@
+[{"pk": 1, "model": "blogango.blog", "fields": {"recent_comments": 5, "recents": 5, "tag_line": "subdomain admin", "entries_per_page": 10, "title": "agiliq"}}]
